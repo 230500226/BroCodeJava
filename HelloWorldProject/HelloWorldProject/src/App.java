@@ -5,7 +5,7 @@ public class App {
     }
     
     public static void notMain(String[] args){
-        System.out.println("This language is so objectively fuked");
-        System.out.println("But hey, so is this country right?");
+        System.out.println("This language");
+        System.out.println("o is ");
     }
 }
