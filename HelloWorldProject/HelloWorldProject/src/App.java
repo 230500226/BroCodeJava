@@ -1,11 +1,8 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        notMain(args);
-    }
-    
-    public static void notMain(String[] args){
-        System.out.println("This language");
-        System.out.println("o is ");
+   //https://youtu.be/ETLHbHenW44?si=NCIqBIBGM3bCx9SQ 
+    public static void main(String[] args) {
+        Ver myVer = new Ver("Karmm", 0);
+        myVer.setName("Param");
+        System.out.println(myVer.getName());
     }
 }
